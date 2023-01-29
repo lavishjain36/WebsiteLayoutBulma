@@ -1,42 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello Bulma</title>
-    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <link rel="stylesheet" href="style.css">
+    <title>Online Shopping Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css">
 </head>
 <body>
-    <section class="section">
-        <div class="container">
-            <h1 class="title has-background-link">To-do List</h1>
-            <div class="columns">
-                <div class="column is-half">
-                    <form action="">
-                        <div class="field">
-                            <div class="control">
-                                <input type="text" class="input" id="task" placeholder="Enter a task...">
-                            </div>
-                        </div>
-
-                        <div class="field is-grouped">
-                            <div class="control">
-                                <button class="button is-link" id="add-btn">Add</button>
-                            </div>
-                        </div>
-                    </form>
+    <div class="container">
+        <div class="columns">
+          <div class="column">
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">
+                  Basic
+                </p>
+                <p class="card-header-icon">
+                  <span class="tag is-primary">$9.99/mo</span>
+                </p>
+              </header>
+              <div class="card-content">
+                <div class="content">
+                  <ul>
+                    <li>10GB Storage</li>
+                    <li>100GB Bandwidth</li>
+                    <li>24/7 Support</li>
+                    <li>Priority Support</li>
+                    <li>Dedicated Account Manager</li>
+                  </ul>
                 </div>
+              </div>
+              <footer class="card-footer">
+                <a href="#" class="card-footer-item">Sign Up</a>
+              </footer>
             </div>
-            <div class="columns">
-                <div class="column is-half">
-                    <div id="task-list"></div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">
+                  Premium
+                </p>
+                <p class="card-header-icon">
+                  <span class="tag is-primary">$19.99/mo</span>
+                </p>
+              </header>
+              <div class="card-content">
+                <div class="content">
+                  <ul>
+                    <li>50GB Storage</li>
+                    <li>500GB Bandwidth</li>
+                    <li>24/7 Support</li>
+                    <li>Priority Support</li>
+                    <li>Dedicated Account Manager</li>
+                  </ul>
                 </div>
+              </div>
+              <footer class="card-footer">
+                <a href="#" class="card-footer-item">Sign Up</a>
+              </footer>
             </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">
+                  Enterprise
+                </p>
+                <p class="card-header-icon">
+                  <span class="tag is-primary">$29.99/mo</span>
+                </p>
+              </header>
+              <div class="card-content">
+                <div class="content">
+                  <ul>
+                    <li>100GB Storage</li>
+                    <li>1000GB Bandwidth</li>
+                    <li>24/7 Support</li>
+                    <li>Priority Support</li>
+                    <li>Dedicated Account Manager</li>
+                  </ul>
+                </div>
+              </div>
+              <footer class="card-footer">
+                <a href="#" class="card-footer-item">Sign Up</a>
+              </footer>
+            </div>
+          </div>
         </div>
-    </section>
-     <script src="script.js"></script>
+      </div>
+      
+  
+<script src="script.js"></script>
 </body>
 </html>
